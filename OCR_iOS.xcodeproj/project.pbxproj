@@ -11,6 +11,7 @@
 		375895AC2B488F0600869357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375895AB2B488F0600869357 /* ContentView.swift */; };
 		375895AE2B488F0700869357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375895AD2B488F0700869357 /* Assets.xcassets */; };
 		375895B12B488F0700869357 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375895B02B488F0700869357 /* Preview Assets.xcassets */; };
+		375895B82B488F1F00869357 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375895B72B488F1F00869357 /* ScanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		375895AB2B488F0600869357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		375895AD2B488F0700869357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375895B02B488F0700869357 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		375895B72B488F1F00869357 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				375895A92B488F0600869357 /* OCR_iOSApp.swift */,
 				375895AB2B488F0600869357 /* ContentView.swift */,
+				375895B72B488F1F00869357 /* ScanView.swift */,
 				375895AD2B488F0700869357 /* Assets.xcassets */,
 				375895AF2B488F0700869357 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				375895AC2B488F0600869357 /* ContentView.swift in Sources */,
 				375895AA2B488F0600869357 /* OCR_iOSApp.swift in Sources */,
+				375895B82B488F1F00869357 /* ScanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = A2A85ZCAUV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "User must allow camera permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = A2A85ZCAUV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "User must allow camera permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
